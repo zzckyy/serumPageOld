@@ -154,10 +154,7 @@ body{
 
 @media (max-width: 600px)
 {
-    body{
-        overflow: scroll;
-        height: 300px;
-    }
+
     .nav{
         padding: 5px;
         align-items: start;
