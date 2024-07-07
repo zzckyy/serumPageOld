@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+
+
+
+body{
+    
+    cursor: default;
+    background-color: beige;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    font-family: Karla;
+
+}
+
+.nav .nav-kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    width: 20%;
+}
+
+.nav .nav-kanan ul li{
+    display: inline-flex;
+    text-decoration: none;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.nav-kiri{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.nav-kiri i{
+    font-size: 30px;
+}
+
+.container{
+    width: 300px;
+    height:450px;
+    border: 1px solid rgb(200, 200, 200);
+    box-sizing: border-box;
+    padding: 15px;
+    margin: 250px auto;
+    border-radius: 12px;
+    box-shadow: 7px 7px 10px gray;
+    background-color: white;
+    font-family: Karla;
+    
+    
+}
+
+.card-content p{
+    font-size: small;
+}
+
+.card-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header img{
+    width: 80%;
+    border-radius: 30px;
+}
+
+
+.card-content button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.card-content button:hover{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    background-color: beige;
+    border-radius: 50px;
+    cursor: pointer;
+    padding: 0;
+}
+
+.banner{
+    position: absolute;
+    width: 90px;
+    height: 20px;
+    transform: translateY(-400px);
+    border: 2px solid khaki;
+    border-radius: 3px;
+    background-color:beige;
+}
+
+.banner p{
+    text-align: center;
+    transform: translateY(-5px);
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+.rating{
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+    align-items: center;
+}
+
+.rating p{
+    margin-left: 12px;
+}
+
+.container div.desc{
+    box-sizing: border-box;
+    width: 300px;
+    height: 250px;
+    
+    position: static;
+    
+    transform: translate(-320px, -320px);
+    padding: 8px;
+    
+    background-color: transparent;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    text-align: end;
+    font-size: small;
+    
+    font-family: Karla;
+}
+
+@media (max-width: 600px)
+{
+    .nav{
+        padding: 5px;
+        align-items: start;
+        height: 80px;
+        justify-content: space-around;
+    }
+
+    .nav .nav-kanan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        width: auto;
+    }
+    
+    .nav .nav-kanan ul li{
+        display: inline-flex;
+        text-decoration: none;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+
+    .container div.desc{
+        box-sizing: border-box;
+        width: 300px;
+        height: 250px;
+        
+        position: static;
+        
+        transform: translate(-20px, -650px);
+        padding: 8px;
+        
+        background-color: transparent;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        text-align: center;
+        font-size: small;
+        
+    }
+
+    .container{
+        margin: 180px auto;
+    }
+
+
+}
