@@ -156,7 +156,6 @@ body{
 {
     body{
         overflow: scroll;
-        height: 100vh;
     }
     .nav{
         padding: 5px;
