@@ -155,7 +155,7 @@ body{
 @media (max-width: 600px)
 {
     body{
-        overflow: visible;
+        overflow: scroll;
     }
     .nav{
         padding: 5px;
